@@ -15,6 +15,10 @@
   - [kanagawa](https://github.com/rebelot/kanagawa.nvim?tab=readme-ov-file) - the one I use
   
 ## Installing
+### Recommendations
+1. Download xclip - access to system buffer in neovim
+2. Download any [Nerdfont](https://www.nerdfonts.com/)
+
 ### Install Neovim
 1. [Download](https://github.com/neovim/neovim/releases/) latest Neovim tag.gz file
 2. Unzip it:
