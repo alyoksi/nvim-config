@@ -16,7 +16,15 @@
   
 ## Installing
 ### Install Neovim
-Go here: [downloading latest Neovim](https://github.com/neovim/neovim/releases/tag/v0.10.4).
+1. [Download](https://github.com/neovim/neovim/releases/) latest Neovim tag.gz file
+2. Unzip it:
+   ```bash
+   tar xzvf nvim-linux-x86_64.tar.gz
+   ```
+4. Create a symlink to binary file in any directory in $PATH
+   ```bash
+    sudo ln -s nvim-linux-x86_64/bin/nvim /usr/bin
+   ```
 
 ### How to make clangd work
 As far as I know clangd is looking for a compile_commands.json in parent directories, so if you don't have one clangd won't work. But we have a solution!
