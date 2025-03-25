@@ -18,6 +18,8 @@
 ### Recommendations
 1. Download xclip - access to system buffer in neovim
 2. Download any [Nerdfont](https://www.nerdfonts.com/)
+3. Great article to learn about how LSP works in Neovim: \
+   https://dx13.co.uk/articles/2023/04/24/neovim-lsp-without-plugins/
 
 ### Install Neovim
 1. [Download](https://github.com/neovim/neovim/releases/) latest Neovim tag.gz file
