@@ -40,6 +40,3 @@ echo '[]' > ~/.config/clangd/compile_commands.json
 
 export CLANGD_COMPILE_COMMANDS_DIR=~/.config/clangd
 ```
-
-## Directories structure
-![image](https://github.com/user-attachments/assets/1f45bab0-968c-4b6a-9c30-4f2ea3748955)
