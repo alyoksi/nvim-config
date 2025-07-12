@@ -58,7 +58,7 @@ snippet temp "my minimalistic template"
     }
 
 snippet for
-    for(int ${1:i}=0; ${1} < ${2:n}; ${1}++){ 
+    for(int ${1:i} = 0; ${1} < ${2:n}; ++${1}){ 
         ${0}
     }
 
@@ -68,10 +68,10 @@ snippet file "reading from file"
 
 snippet bpow "Binary exp"
     ll binpow(ll a,ll b){
-        ll res=1;
+        ll res = 1;
         while(b){
-            if(b&1) res*=a;
-            a*=a,b>>=1;
+            if(b&1) res *= a;
+            a *= a, b >>= 1;
         }
         return res;
     }
