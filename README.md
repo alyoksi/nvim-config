@@ -10,9 +10,10 @@
   - [snippy](https://github.com/dcampos/nvim-snippy) - snippets (using it for comptetite programming, but also needed for cmp)
 - [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua) - file explorer
 - [telescope](https://github.com/nvim-telescope/telescope.nvim) - quick searching for files
+- [tree-sitter](https://github.com/nvim-treesitter/nvim-treesitter) - better highlighting
 - Themes:
   -  [onedark](https://github.com/navarasu/onedark.nvim)
-  - [kanagawa](https://github.com/rebelot/kanagawa.nvim?tab=readme-ov-file) - the one I use
+  -  [gruvbox material](https://github.com/sainnhe/gruvbox-material)
   
 ## Installing
 ### Recommendations
@@ -33,7 +34,7 @@
    ```
 
 ### How to make clangd work
-As far as I know clangd is looking for a compile_commands.json in parent directories, so if you don't have one clangd won't work. But we have a solution!
+As far as I know clangd is looking for a compile_commands.json in parent directories, so if you don't have one clangd won't work.
 ```bash
 mkdir -p ~/.config/clangd
 echo '[]' > ~/.config/clangd/compile_commands.json
